@@ -1,0 +1,82 @@
+
+.filtros {
+    background-image: url("../img/slider01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0px;
+    text-align: center;
+
+    .filtroPaquetes {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        background-color: $color-fondo;
+        padding: 2%;
+        margin: 0 20%;  
+
+        .filtro {
+            margin: 5px 5px;
+        }
+
+        .boton {
+            display:inline-block;
+            background-color: $color-principal;
+            border: 1px solid $color-secundario;
+            border-radius: 5px;
+            padding: 10px 30px;
+            font-family: $font-principal;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            transition: all 0.5s;
+        
+            &:hover {
+                background-color: $color-secundario;
+            }
+
+        }
+    }
+
+}
+
+.wishlistActive {
+    border: 0px;
+    background-color: #f8f9fa;
+    color: $color-secundario;
+    padding-top: 10px;
+
+    &:hover {
+        color: $color-principal;
+    }
+}
+
+#cotizacionesContenedor {
+    padding: 5%;
+}
+
+.botonEliminar {
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 50%;
+    background-color: $color-principal;
+    border: 1px solid $color-secundario;
+    margin-left: 10px;
+
+    &:hover {
+        background-color: $color-secundario;
+        color: #ffffff;
+    }
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,59 @@
+/* estilos para ranking  */
+.ranking { 
+    background-color: #1e1d1d;
+
+        .columnas-ranking {
+            @include flex-contenedores;
+            padding: 2% 10%;
+
+            .boton {
+                display:inline-block;
+                background-color: $color-principal;
+                border: 1px solid $color-secundario;
+                border-radius: 5px;
+                padding: 10px 30px;
+                font-family: $font-principal;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                transition: all 0.5s;
+            
+                &:hover {
+                    background-color: $color-secundario;
+                    padding: 10px 32px;
+                    font-size: 0.95rem;
+
+                }
+            
+                a{
+                    color: #ffffff;
+
+                    i{
+                        padding-left: 10px;
+                        transition: all 0.5s;
+
+                        &:hover {
+                            translate: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+ }
+
+.lista-ranking-columnas {
+    @include flex-contenedores;
+
+        .lista-ranking {
+            
+            ol {
+            
+                li { 
+                        font-size: 1.5rem;
+                        padding-bottom: 0.3rem;
+                        margin-left: 2rem;
+                }
+            }
+        }
+    }

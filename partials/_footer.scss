@@ -1,0 +1,65 @@
+/* estilos para footer  */
+
+.footer {
+    background-color: #1e1d1d;
+    border-top: 3px solid $color-principal;
+    @include flex-contenedores;
+    align-items: start;
+
+    a {
+        color: #ffffff;
+    }
+
+    h6 {
+        color: #ffffff;
+    }
+
+    li{
+        list-style-type: none;
+        font-family: $font-principal;
+        font-weight: 400;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        transition: all 0.5s;
+
+        a {
+            &:hover {
+                color: $color-principal;
+            }
+        }
+    }
+
+    .footer-logo {
+
+        img{
+            display:inline-block;
+            height: 100px;
+            width: auto;
+        }
+    }
+
+    .redes-footer {
+    
+        i {
+            color: #ffffff;
+            margin: 5px;
+            transition: all 0.8s;
+
+            &:hover {
+                color: $color-principal;
+                transform: rotate(360deg);
+            }
+        }              
+    }
+}
+
+.copy {
+    text-align: center;
+    background-color: $color-principal;
+    padding: 4px;
+
+    p {
+        color: #ffffff;
+        font-weight: 400;
+    }
+}

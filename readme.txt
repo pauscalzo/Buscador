@@ -1,0 +1,5 @@
+Se trata de un cotizador de paquetes turísticos para el verano 2024.
+Al ingresar el destino deseado se despliegan los paquetes para dicho destino. Luego se colocan la cantidad de niños y adultos y se calcula el costo de las opciones disponibles según lo seleccionado. Se muestran las opciones en el DOM.
+Cada una de las opciones cuenta con un botón para poder ver la cotización del dolar del día.
+De las opciones disponibles se puede guardar en la lista de deseos (wishlist) las deseadas. Para eso, se clickea en el corazón o en el link wishlist presente en cada opción. La cotización guardada puede observarse desde un modal que se abre al clickear el ícono de corazón arriba a la derecha en el menú de navegación.
+Las cotizaciones permanecen en el localStorage hasta que el usuario las elimine. Para eliminarlas se debe clickear la cruz que tienen al lado dentro del modal. 

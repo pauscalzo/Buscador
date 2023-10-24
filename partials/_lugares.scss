@@ -1,0 +1,83 @@
+/* estilos para columnas en lugares  */
+
+.grilla {
+    margin-bottom: 2rem;
+}
+
+%imgIzq {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2rem;
+    background-color: $color-fondo;
+}
+
+%imgDer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.lugares-01 {
+    @extend %imgIzq;
+    grid-template-areas: "lugar01 texto01 texto01";
+
+    .lugar01 {
+        grid-area: lugar01;
+    }
+    
+    .texto01 {
+        grid-area: texto01;
+    }
+}
+
+.lugares-02 {
+    @extend %imgDer;
+    grid-template-areas: "texto02 texto02 lugar02";
+    
+    .lugar02 {
+        grid-area: lugar02;
+    }
+    
+    .texto02 {
+        grid-area: texto02;
+    }
+}
+
+
+
+.lugares-03 {
+    @extend %imgIzq;
+    grid-template-areas: "lugar03 texto03 texto03";
+    
+    
+    .lugar03 {
+        grid-area: lugar03;
+    }
+    
+    .texto03 {
+        grid-area: texto03;
+    }
+}
+
+
+
+.lugares-04 {
+    @extend %imgDer;
+    grid-template-areas: "texto04 texto04 lugar04";
+    
+    
+    .lugar04 {
+        grid-area: lugar04;
+    }
+    
+    .texto04 {
+        grid-area: texto04;
+    }
+}
+

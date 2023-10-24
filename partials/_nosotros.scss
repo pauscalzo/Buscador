@@ -1,0 +1,74 @@
+/* estilos para nosotros  */ 
+
+.nosotros {
+    background-color: $color-fondo;
+
+    .columnas-nosotros {
+        @include flex-contenedores;
+        gap: 2rem;
+
+        p{
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+        }
+    }
+}
+
+/* estilos para galeria masonry  */
+
+.galeria-masonry-01 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "galeria01 galeria01 galeria02 galeria03"
+                         "galeria01 galeria01 galeria04 galeria05";
+  
+                         .galeria01 {
+                            grid-area: galeria01;
+                        }
+                        
+                        .galeria02 {
+                            grid-area: galeria02;
+                        }
+                        
+                        .galeria03 {
+                            grid-area: galeria03;
+                        }
+                        
+                        .galeria04 {
+                            grid-area: galeria04;
+                        }
+                        
+                        .galeria05 {
+                            grid-area: galeria05;
+                        }
+                        
+}
+
+
+.galeria-masonry-02 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "galeria06 galeria08 galeria08 galeria09 galeria09"
+                         "galeria07 galeria08 galeria08 galeria09 galeria09";
+    
+                         .galeria06 {
+                            grid-area: galeria06;
+                        }
+                        
+                        .galeria07 {
+                            grid-area: galeria07;
+                        }
+                        
+                        .galeria08 {
+                            grid-area: galeria08;
+                        }
+                        
+                        .galeria09 {
+                            grid-area: galeria09;
+                        }    
+}

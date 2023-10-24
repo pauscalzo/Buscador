@@ -1,0 +1,162 @@
+/* responsive tablet  */
+
+@media only screen and (max-width: 850px) {
+    .header {
+        display: block;
+        padding: 10px;
+
+        .header-right {
+            display: block;
+
+            .cell {
+                display: block;
+            }
+
+            .navbar-collapse {
+            
+                li {
+                    padding: 0;
+                    text-transform: uppercase;
+                    font-family: $font-principal;
+                    font-weight: 700;
+                    font-size: 0.8rem;
+                    line-height: 1.2rem;
+                    text-align: center;
+                }
+
+                .redes {
+                    text-align: center;
+                }
+            }
+        }
+
+        .desktop {
+            display: none;
+        }
+    }
+    
+    .filtros{
+        .filtroPaquetes {
+            display: block;
+        }
+    }
+
+    .nosotros{
+        .columnas-nosotros {
+            display: block;
+        }
+    }
+
+    .lugares-01 {
+        display: block;
+        .lugar01 {
+            padding-bottom: 2rem;
+        }
+    }
+    
+    .lugares-02 {
+        display: block;
+        .lugar02 {
+            padding-bottom: 2rem;
+        }
+    }
+    
+    .lugares-03 {
+        display: block;
+        .lugar03 {
+            padding-bottom: 2rem;
+        }
+    }
+    
+    .lugares-04 {
+        display: block;
+        .lugar04 {
+            padding-bottom: 2rem;
+        }
+    }
+    
+    .blog {
+        display: block;
+
+        .ultimas-entradas-02 {
+            justify-items: left;
+        }
+    }
+    
+  }
+
+  /* responsive celular  */
+
+  @media only screen and (max-width: 500px) {
+    .contenedor {
+        padding: 20px 30px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    .separador {
+        width: 40px;
+        
+    }
+   
+    .ranking {
+        text-align: center;
+        padding: 20px 30px;
+
+        .columnas-ranking {
+            display: block;
+        }
+    }
+    
+    .columnas-blog {
+        display: block;
+
+        .item-blog {
+            padding-bottom: 3rem;
+
+            img {
+                height: 150px;
+                width: auto;
+            }
+        }
+    }
+   
+  
+    .footer {
+        display: block;
+        text-align: center;
+
+        .col-footer {
+            padding-bottom: 3rem;
+        }
+    }
+    
+    .galeria-masonry-01 {
+        display: block;
+    }
+    .galeria-masonry-02 {
+        display: block;
+    }
+    .lista-ranking {
+        ol {
+            li {
+                font-size: 1rem;
+                padding-bottom: 0.3rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+    .contenido {
+        img {
+            margin-left: 0;
+        }
+    }
+ }
